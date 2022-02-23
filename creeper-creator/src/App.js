@@ -1,5 +1,4 @@
 import React from "react";
-import { CssBaseline } from "@mui/material";
 import creeper from "./creeper.jpg";
 import "./App.css";
 
