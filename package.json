@@ -1,0 +1,37 @@
+{
+  "name": "creeper-creator",
+  "version": "1.0.0",
+  "description": "A fun Creeper creator app where kids and adults alike can create their own Creeper character! Creepers belong to Minecraft. <br/><br/>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellenoelle/creeper-creator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellenoelle/creeper-creator/issues"
+  },
+  "homepage": "https://github.com/gabriellenoelle/creeper-creator#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "apollo-server": "^3.6.3",
+    "apollo-server-express": "^3.6.3",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "graphql-tools": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "react-router-dom": "^6.2.1"
+  }
+}
